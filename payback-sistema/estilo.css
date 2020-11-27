@@ -1,0 +1,117 @@
+input {
+    display: block;
+    height: 55px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #ffffff95;
+    outline: none;
+}
+
+#corpo-form {
+    width: 100%;
+    margin: inherit;
+    text-align: -webkit-center;
+}
+
+body {
+    margin: 0px !important;
+    width: 100%;
+}
+
+#espaco1 {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+textarea {
+    display: block;
+    height: 55px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #ffffff95;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #btnAtualizar{
+        background-color:blue;
+        color:white;
+        width:30%!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input{
+        margin:40px;
+    }
+}
+
+#btnAcessar {
+    background-color: #32a852;
+    color: white;
+    font-weight: bolder;
+    width:10%;
+}
+
+@media only screen and (max-width: 600px) {
+    #btnAcessar{
+        width:30%!important;
+        border-radius:10px;
+        color: white;
+    }
+}
+
+#logomws{
+    width:20%;
+}
+
+@media only screen and (max-width: 600px) {
+    #logomws{
+        width:65%!important;
+    }
+}
+
+.btn-ap {
+    color: #fff;
+    background-color: #32a852;
+    border-color: none;
+    border-radius:15px;
+    padding:25px 45px;
+}
